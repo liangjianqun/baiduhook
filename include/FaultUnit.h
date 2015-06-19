@@ -17,7 +17,7 @@
 class FaultUnit
 {
 public:
-    static const int MAX_NAME_LEN = 64;
+    static const int MAX_NAME_LEN = 256;
 
 	FaultUnit();
 	FaultUnit(const char *name, int enable, unsigned int probability, int err, void *param);
